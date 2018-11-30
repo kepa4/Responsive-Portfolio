@@ -1,0 +1,262 @@
+* {
+    background-color: #e7e7e7;
+    margin: 0px;
+}
+
+* h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+* h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+* p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar {
+    background-color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+    background-color: white;
+    float: left;
+}
+
+.navbar li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.navbar ul h1 {
+    float: left;
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 14px;
+    color: white;
+}
+.content {
+    margin: 20px 5em;
+    background-color: white;
+    position: relative;
+}
+
+.content h2 {
+    background-color: white;
+    font-size: 32px;
+    padding: 20px;
+    color: #4aaaa5;
+}
+
+.content hr {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 1px;
+    background-color: #666666; 
+
+}
+
+.content p {
+    background-color: white;
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+}
+
+.content p#aboutMe {
+    margin: 20px;
+}
+
+
+.content img {
+    float: left;
+}
+
+.content img#aboutMe {
+    float: left;
+    margin: 0px 20px;
+}
+
+.footerContainer {
+    background-color: #efefef;
+    flex: 0 0 50px;
+    margin-top: auto;
+
+}
+
+.footerLine {
+    width: 100%;
+    height: 15px;
+    margin: 0px;
+    background-color: #4aaaa5;
+}
+
+.footer {
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+}   
+
+.content .card {
+    background-color: white;
+
+}
+
+.card {
+    float: left;
+    position: relative;
+    left: 0px;
+    margin: 0px 0px 20px 20px;
+    background-color: white;
+    display: table;
+}
+
+.card img:hover {
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.card img {
+    margin: 0;
+    background-color: white;
+
+}
+
+.card .text p {
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    line-height: 30px;
+	color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.content form {
+    padding: 0px 20px;
+    background-color: white;
+}
+
+.content form p {
+   padding: 10px 0px 0px 0px;
+}
+
+input {
+    width: 80%; 
+    background-color: white;
+    margin: 0;
+}
+
+textarea {
+    position: relative;
+    height: 300px;
+    width: 80%;
+    background-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: #4aaaa5;
+    border: none; 
+    color: white;
+
+}
+
+button:hover {
+    background-color: #388581;
+}
+
+button:active {
+    background-color: #173836;
+}
+
+@media only screen and (max-width: 980px) {
+	.content p {
+		font-size: 16px;
+	}
+
+	.content {
+		margin-right: 400px;
+		margin-left: 20px;
+	}
+	.content img#aboutMe { 
+		height: 150px;
+		width: 150px;
+	}
+
+	.content img {
+		height: 200px;
+		width: 200px;
+	}
+	
+
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar ul h1 { 
+		font-size: 20px;
+		padding: 20px;
+	}
+
+	.navbar li a {
+		font-size: 12px;
+	}
+
+	.content {
+		margin: 2em 2em;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.navbar ul h1 {
+		width: 100%;
+		text-align: left;		
+	}
+
+	.navbar li {
+		display: inline;
+		width: 50px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.content img {
+		width: 500px;
+		height: 400px
+	}
+
+	.content p {
+		
+		font-size: 24px;
+	}
+
+	.content h2 {
+		font-size: 28px;
+	}
+}
